@@ -4,7 +4,7 @@
 
 
 ## Screenshot
-![Screenshot](images/viewmodel.png)
+![Screenshot](images/viewmodel.jpg)
 ![Screenshot](images/login.png)
 ![Screenshot](images/register.png)
 ![Screenshot](images/registertest.png)
