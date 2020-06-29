@@ -35,42 +35,6 @@ public class TaskViewModel extends ViewModel {
 
     public LiveData<Response<List<ReminderEntity>>> getReminders() {
         return responseMutableLiveData;
-//        MutableLiveData<Response<List<ReminderEntity>>> result = new MutableLiveData<>();
-//        result.setValue(new Response<>("Loading...", State.LOADING, null));
-//
-//        View view = database.getDatabase().getView("reminderList");
-//        if (view.getMap() == null) {
-//            Mapper map = (document, emitter) -> {
-//                if ("reminderList".equals(document.get("type"))) {
-//                    List<Object> keys = new ArrayList<Object>();
-//                    keys.add(document.get("title"));
-//                    keys.add(document.get("reminderType"));
-//                    keys.add(document.get("remindTime"));
-//                    keys.add(document.get("created_at"));
-//                    emitter.emit(keys, document);
-//                }
-//            };
-//            view.setMap(map, "1.0");
-//        }
-//
-//        try {
-//            QueryEnumerator enumerator = view.createQuery().run();
-//            List<ReminderEntity> reminders = extractReminders(enumerator);
-//            if (reminders.isEmpty()) {
-//                result.setValue(new Response<>("No data available", State.ERROR, null));
-//            } else {
-//                result.setValue(new Response<>("Success", State.SUCCESS, extractReminders(enumerator)));
-//            }
-//        } catch (CouchbaseLiteException e) {
-//            e.printStackTrace();
-//        }
-//
-//        view.createQuery().toLiveQuery().addChangeListener(event -> {
-//            QueryEnumerator enumerator = event.getRows();
-//            result.setValue(new Response<>("Success", State.SUCCESS, extractReminders(enumerator)));
-//        });
-//
-//        return result;
     }
 
     public void updateReminders() {
