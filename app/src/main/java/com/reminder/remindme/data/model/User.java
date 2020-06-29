@@ -1,6 +1,6 @@
 package com.reminder.remindme.data.model;
 
-
+//create user with id,fullname,address,mobileNumber,email,password,createat
 public class User {
     private String id;
     private String fullName;
