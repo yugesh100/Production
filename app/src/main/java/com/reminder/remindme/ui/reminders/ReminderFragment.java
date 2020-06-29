@@ -42,7 +42,7 @@ import javax.inject.Inject;
 
 import io.github.luizgrp.sectionedrecyclerviewadapter.SectionedRecyclerViewAdapter;
 
-
+//create remider fragment by implementing injectable
 public class ReminderFragment extends Fragment implements Injectable, OnReminderInteractionListener<ReminderEntity> {
 
     public static final int ACTION_DELETE = 0;
