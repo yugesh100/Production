@@ -25,7 +25,7 @@ import com.reminder.remindme.viewmodel.UserViewModel;
 
 import javax.inject.Inject;
 
-
+//using login fragment for login
 public class LoginFragment extends Fragment implements Injectable {
 
     private static final String TAG = LoginFragment.class.getSimpleName();
