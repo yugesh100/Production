@@ -15,7 +15,7 @@ import java.util.Locale;
 
 import io.github.luizgrp.sectionedrecyclerviewadapter.SectionParameters;
 import io.github.luizgrp.sectionedrecyclerviewadapter.StatelessSection;
-
+//create a stateless section object and list of reminder model
 
 public class ReminderSection extends StatelessSection {
 
