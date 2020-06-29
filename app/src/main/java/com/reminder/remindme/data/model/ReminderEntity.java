@@ -4,7 +4,7 @@ import com.reminder.remindme.util.Constant;
 
 import java.util.Calendar;
 
-
+//create reminderenity with documetid,title,remindtime,reminderType,createdAt
 public class ReminderEntity {
     private String documentId;
     private String title;
