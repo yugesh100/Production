@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-
+// using sinleton and inject
 @Singleton
 public class AppExecutors{
     private Executor diskIO;
