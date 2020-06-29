@@ -13,7 +13,7 @@ import com.reminder.remindme.di.component.DaggerAppComponent;
 import dagger.android.AndroidInjection;
 import dagger.android.support.AndroidSupportInjection;
 import dagger.android.support.HasSupportFragmentInjector;
-
+//using dependency injection
 
 public class ApplicationInjector {
 
