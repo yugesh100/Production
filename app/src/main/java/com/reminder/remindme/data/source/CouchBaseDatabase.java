@@ -16,7 +16,7 @@ import java.util.Map;
 import javax.inject.Singleton;
 
 
-
+//create couchbasedatabase
 @Singleton
 public class CouchBaseDatabase implements ReminderApplication.LifeCycleListener {
     public static final String TAG = CouchBaseDatabase.class.getSimpleName();
