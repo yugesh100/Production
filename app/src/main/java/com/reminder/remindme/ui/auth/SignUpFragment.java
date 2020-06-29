@@ -28,7 +28,7 @@ import java.util.Calendar;
 
 import javax.inject.Inject;
 
-
+//using signup fragment for signup
 public class SignUpFragment extends Fragment implements Injectable, View.OnClickListener {
 
     Button mSignUBtn;
