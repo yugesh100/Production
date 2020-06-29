@@ -8,7 +8,7 @@ import android.support.v4.app.NotificationCompat;
 
 import com.reminder.remindme.R;
 
-
+//Alarm broad cast receiver for remind me application
 public class AlarmBroadcastReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
