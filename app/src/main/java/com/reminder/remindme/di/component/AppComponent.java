@@ -18,7 +18,7 @@ import dagger.BindsInstance;
 import dagger.Component;
 import dagger.android.AndroidInjector;
 
-
+//using dagger
 @Singleton
 @Component(
         modules = {
