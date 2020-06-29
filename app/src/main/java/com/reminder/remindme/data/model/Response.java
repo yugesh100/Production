@@ -1,5 +1,5 @@
 package com.reminder.remindme.data.model;
-
+//creating  constructor with getter and setter
 
 public class Response<T> {
 
